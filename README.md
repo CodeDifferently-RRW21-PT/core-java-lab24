@@ -6,6 +6,9 @@
 * **Purpose:** To demonstrate [multi-inheritence design issues](https://www.geeksforgeeks.org/java-and-multiple-inheritance/)
 * **Prerequesites:** A `UML` approved by an instructor.
 
+Here is the uml for the exaple code
+
+![](./example.png)
 
 # Part 1: Setting the Plot...
 

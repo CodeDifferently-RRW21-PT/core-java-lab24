@@ -21,11 +21,4 @@ public class IphoneTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    public void canReceiveCallTest() {
-
-        CanReceiveCall connect = new Iphone("Sam");
-
-
-    }
 }
