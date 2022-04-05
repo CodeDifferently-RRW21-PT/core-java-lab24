@@ -26,6 +26,7 @@ public class ModelXTest {
 
         CanReceiveCall connect = new ModelX(500);
 
+        connect.receiveCall();
 
     }
 
@@ -41,8 +42,6 @@ public class ModelXTest {
         Integer expected = 550;
         connect.drive(miles);
 
-        // Then
-
     }
 
     @Test
@@ -56,4 +55,5 @@ public class ModelXTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
 }

@@ -21,4 +21,11 @@ public class AppleWatchTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void canReceiveCallTest() {
+
+        CanReceiveCall call = new AppleWatch("Sam");
+
+        call.receiveCall();
+    }
 }

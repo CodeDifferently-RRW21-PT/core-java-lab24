@@ -33,7 +33,5 @@ public class BmwTest {
         Integer expected = 1250;
         connect.drive(miles);
 
-        // Then
-
     }
 }

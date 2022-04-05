@@ -13,7 +13,8 @@ public class ModelX implements CanReceiveCall, CanConnectToInternet, Drivable, C
 
     @Override
     public Boolean connectToNetwork(String connectionName) {
-        return null;
+        System.out.println("You are now connecting to " + connectionName + " network.");
+        return true;
     }
 
     @Override
