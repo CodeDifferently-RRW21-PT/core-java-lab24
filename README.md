@@ -26,19 +26,6 @@ Consider a system in which:
     * `Chicken` is an `Animal` and a `Produce` which `yield` an `EdibleEgg` if `hasBeenFertilized` flag is `false`.
 * An abstract class `Rider` object.
 
-# Part 2: Setting the Plot...
-
-* Interface `Vehicle` is a `NoiseMaker` and `Rideable`
-    * `FarmVehicle` can `operate` on a `Farm`
-        * `Tractor` is a `FarmVehicle` which can `harvest` a `Crop`.
-    * `Aircraft` are `Vehicle` which can  `fly`
-        * `CropDuster` is a `FarmVehicle` and `Aircraft` which can `fertilize` a `CropRow`
-* `Person` can `makeNoise` and can `eat` an `Edible` object.
-* `Farmer` is an `Eater`, a `Rider`, a `Botanist`, and a `Person`.
-* `Stable` stores many `Horse`.
-* `FarmHouse` stores many `Person`
-* `ChickenCoop` stores many `Chicken`
-* `Farm` stores many `Stable`, many `ChickenCoop`, and a single `FarmHouse`
 
 
 
